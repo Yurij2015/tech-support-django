@@ -15,9 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+# from django.urls import re_path
 from techsupportapp import views
 
 urlpatterns = [
-    path('', views.index, name='home'),
+    path('', views.index),
+    # path('about', views.about),
+    # path('contact', views.contact),
+    # path('techsupporrequests/', views.techsupporrequests),
+    # path('techsupporrequests/<int:techsupportrequestid>/', views.techsupporrequests),
+    # path('users/', views.users),
+    # path('users/<int:id>/<name>/', views.users),
+    # re_path(r'^techsupporrequests/$', views.techsupporrequests),
+    # re_path(r'^techsupporrequests/(?P<techsupportrequestid>\d+)', views.techsupporrequests),
+    # re_path(r'^users/(?P<id>\d+)/(?P<name>\D+)/', views.users),
+    # re_path(r'^about', views.about),
+    # re_path(r'^contact', views.contact),
     path('admin/', admin.site.urls),
 ]
