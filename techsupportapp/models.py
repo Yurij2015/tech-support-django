@@ -2,25 +2,10 @@ from django.db import models
 
 
 # Create your models here.
-class Question(models.Model):
-    question = models.TextField()
-    answer = models.TextField()
-    answerDate = models.DateField()
-    status = models.IntegerField()
-    user = models.IntegerField()
-    division = models.IntegerField()
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
-
 
 class Category(models.Model):
-    name = models.CharField(max_length=40)
+    name = models.CharField(max_length=80)
     description = models.TextField()
-
-
-class Employee(models.Model):
-    name = models.CharField(max_length=40)
-    position = models.ForeignKey(Position, on_delete=models.CASCADE)
-    division = models.ForeignKey(Division, on_delete=models.CASCADE)
 
 
 class Position(models.Model):
@@ -30,3 +15,20 @@ class Position(models.Model):
 class Division(models.Model):
     name = models.CharField(max_length=40)
 
+
+class Employee(models.Model):
+    name = models.CharField(max_length=80)
+    position = models.ForeignKey(Position, on_delete=models.CASCADE)
+    division = models.ForeignKey(Division, on_delete=models.CASCADE)
+
+
+class Question(models.Model):
+    customer = models.CharField(max_length=100)
+    question = models.TextField()
+    answer = models.TextField()
+    answerDate = models.DateField()
+    status = models.IntegerField()
+    user = models.IntegerField()
+    division = models.IntegerField()
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    employee = models.ForeignKey(Employee, on_delete=models.CASCADE)
