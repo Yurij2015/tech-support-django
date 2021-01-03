@@ -4,8 +4,12 @@ from django.db import models
 # Create your models here.
 
 class Category(models.Model):
-    name = models.CharField(max_length=80)
-    description = models.TextField()
+    name = models.CharField("Наименование категории", max_length=80)
+    description = models.TextField("Описание категории")
+
+    class Meta:
+        verbose_name = "Категория"
+        verbose_name_plural = "Категории"
 
 
 class Position(models.Model):

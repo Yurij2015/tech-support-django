@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d78dd009-9d46-4e13-8474-eef48d15178b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techsupportapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/techsupportapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/techsupportapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/techsupportapp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +28,15 @@
     <bower.json value="" />
   </component>
   <component name="ProjectId" id="1mIGJWLTJk1scI6kYzCfhnfzJ9A" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -73,7 +77,7 @@
       <workItem from="1609645592901" duration="67000" />
       <workItem from="1609645708926" duration="12192000" />
       <workItem from="1609679583232" duration="626000" />
-      <workItem from="1609680249226" duration="1547000" />
+      <workItem from="1609680249226" duration="3159000" />
     </task>
     <servers />
   </component>
@@ -91,5 +95,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
