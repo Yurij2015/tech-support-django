@@ -1,0 +1,26 @@
+{% extends "techsupportapp/base.html" %}
+{% block title %}Form{% endblock title %}
+{% block header %}Support Form - Форма поддержки
+{% endblock header %}
+
+{% block content%}
+<hr>
+<form method="POST" novalidate class="form">
+    {% csrf_token %}
+
+    <div>
+        {% for field in supportform %}
+        <div class="form-group">
+            {{field.label_tag}}
+            <div class="form-group">{{field}}</div>
+            <div class="error">{{field.errors}}</div>
+            {% for error in field.errors %}
+            <div class="alert alert-danger">{{error}}</div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+        <!--    {{supportform}}-->
+        <input type="submit" class="btn btn-primary" value="Send">
+</form>
+<hr>
+{% endblock content %}

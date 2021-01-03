@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'techsupportapp'
-
+    'techsupportapp',
+    "bootstrap4",
 ]
 
 MIDDLEWARE = [
@@ -56,6 +56,10 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'TechSupport.urls'
 
 TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+]
 
 TEMPLATES = [
     {

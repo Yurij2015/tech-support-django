@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d78dd009-9d46-4e13-8474-eef48d15178b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/techsupportapp/supportform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/techsupportapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/techsupportapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/techsupportapp/supportform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TechSupport/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TechSupport/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TechSupport/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TechSupport/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techsupportapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/techsupportapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/techsupportapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/techsupportapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +19,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="$USER_HOME$/AppData/Roaming/npm/node_modules/bower" />
+    <bower.json value="" />
   </component>
   <component name="ProjectId" id="1mIGJWLTJk1scI6kYzCfhnfzJ9A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,13 +47,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DockerProjects\Python\TechSupportSystem" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +77,10 @@
       <workItem from="1609173621996" duration="574000" />
       <workItem from="1609174227557" duration="21472000" />
       <workItem from="1609510388917" duration="645000" />
-      <workItem from="1609530003396" duration="13161000" />
+      <workItem from="1609530003396" duration="16097000" />
+      <workItem from="1609592230313" duration="11890000" />
+      <workItem from="1609645592901" duration="67000" />
+      <workItem from="1609645708926" duration="9108000" />
     </task>
     <servers />
   </component>
