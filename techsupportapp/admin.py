@@ -1,14 +1,16 @@
 from django.contrib import admin
 
 # Register your models here.
-from techsupportapp.models import Question
-from techsupportapp.models import Category
-from techsupportapp.models import Position
-from techsupportapp.models import Division
-from techsupportapp.models import Employee
+from techsupportapp.models import Question, Category, Position, Division, Employee
 
 admin.site.register(Question)
-admin.site.register(Category)
+
+
+@admin.register(Category)
+class Category(admin.ModelAdmin):
+    list_display = ('name', 'description')
+
+
 admin.site.register(Position)
 admin.site.register(Division)
 admin.site.register(Employee)
