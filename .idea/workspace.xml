@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d78dd009-9d46-4e13-8474-eef48d15178b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/adminlte/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/techsupportapp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/techsupportapp/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/techsupportapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/techsupportapp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <workItem from="1609645592901" duration="67000" />
       <workItem from="1609645708926" duration="12192000" />
       <workItem from="1609679583232" duration="626000" />
-      <workItem from="1609680249226" duration="6392000" />
+      <workItem from="1609680249226" duration="7794000" />
     </task>
     <servers />
   </component>
