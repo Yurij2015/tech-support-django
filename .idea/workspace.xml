@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d78dd009-9d46-4e13-8474-eef48d15178b" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/techsupportapp/migrations/0002_auto_20210303_0740.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
@@ -15,6 +16,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3c54cecf-efbc-43f9-b5c9-be79678c7091/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/techsupportapp/migrations/0002_auto_20210126_0435.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techsupportapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/techsupportapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techsupportapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/techsupportapp/models.py" afterDir="false" />
+>>>>>>> 64d187b6086399b9a7e194e6352aaac95f4d6c3c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +44,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -151,8 +169,17 @@
       <workItem from="1609711287595" duration="762000" />
       <workItem from="1609712278405" duration="1175000" />
       <workItem from="1609713681960" duration="1714000" />
+<<<<<<< HEAD
       <workItem from="1614755931001" duration="90000" />
       <workItem from="1614756033954" duration="2206000" />
+=======
+      <workItem from="1609715725647" duration="2306000" />
+      <workItem from="1610055979287" duration="68000" />
+      <workItem from="1610852434722" duration="62000" />
+      <workItem from="1611583607445" duration="48000" />
+      <workItem from="1611583761521" duration="5838000" />
+      <workItem from="1611750038233" duration="2124000" />
+>>>>>>> 64d187b6086399b9a7e194e6352aaac95f4d6c3c
     </task>
     <servers />
   </component>

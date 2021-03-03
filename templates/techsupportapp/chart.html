@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+<canvas id="myChart"></canvas>
+<script>
+    let ctx = document.getElementById('myChart').getContext('2d');
+    let chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'bar',
+
+        // The data for our dataset
+        data: {
+            labels: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+            datasets: [{
+                label: 'Количество заявок на техническую поддержку за 2020 год',
+                backgroundColor: 'rgb(99,138,255)',
+                borderColor: 'rgb(99,143,255)',
+                data: [4, 10, 5, 8, 20, 30, 45, 33, 44, 5, 55, 15]
+            }]
+        },
+
+        // Configuration options go here
+        options: {}
+    });
+</script>
+</body>
+</html>

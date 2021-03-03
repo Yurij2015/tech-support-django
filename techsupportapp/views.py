@@ -10,6 +10,10 @@ def index(request):
     return render(request, "techsupportapp/index.html", context=data)
 
 
+def chart(request):
+    data = {"message": "Добро пожаловать на сайт поддержки!"}
+    return render(request, "techsupportapp/chart.html", context=data)
+
 def supportform(request):
     support_form = SupportForm()
     if request.method == "POST":
