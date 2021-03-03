@@ -21,6 +21,7 @@ urlpatterns = [
     path('', views.index),
     path('supportform.html', views.supportform),
     path('chart.html', views.chart),
+    path('category.html', views.category),
 
     path('admin/', admin.site.urls),
 ]

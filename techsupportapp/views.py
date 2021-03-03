@@ -11,8 +11,14 @@ def index(request):
 
 
 def chart(request):
-    data = {"message": "Добро пожаловать на сайт поддержки!"}
+    data = {"message": "Страница анализа данных по годам!"}
     return render(request, "techsupportapp/chart.html", context=data)
+
+
+def category(request):
+    data = {"message": "Страница анализа данных по категориям!"}
+    return render(request, "techsupportapp/category.html", context=data)
+
 
 def supportform(request):
     support_form = SupportForm()
@@ -25,5 +31,5 @@ def supportform(request):
         # else:
         #     return HttpResponse("Некорректные данные!")
     # else:
-        # support_form = SupportForm()
+    # support_form = SupportForm()
     return render(request, "techsupportapp/supportform.html", {"supportform": support_form})
